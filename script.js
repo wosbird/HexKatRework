@@ -6,3 +6,18 @@ $(".menu").click(function() {
 });
 
 /* End */
+
+
+$("#skillbutton1").on("click", function(){
+	$("#IA").slideToggle();
+
+})
+
+$("#skillbutton2").on("click", function(){
+	$("#UT").slideToggle();
+
+})
+
+$("#skillbutton2").on("click", function(){
+$("#IA").slideToggle();
+})

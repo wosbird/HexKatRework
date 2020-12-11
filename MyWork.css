@@ -1,0 +1,165 @@
+
+	body {
+		background-image: linear-gradient(180deg, rgb(132, 245, 209) 0%, rgb(30, 122, 104) 50%, rgb(132, 245, 209) 100%);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: cover;
+	  }
+
+
+	  .header {
+		background-color: black;
+		background-size: cover;
+		height: 400px;
+		margin-top: -10px;
+		display: grid;
+		grid-template-rows: 300px;
+		grid-template-columns: 1fr 300px 1fr;
+		grid-template-areas: "hex head kat";
+		
+		}
+
+		.header #hex{
+			text-align: right;
+		}
+
+		.header #kat{
+			text-align: left;
+		}
+		
+		h1{
+			font-family: deco;
+			color: white;
+			font-size: 160pt;
+		}
+
+		h2{
+			font-family: deco;
+			color: white;
+			font-size: 80pt;
+			text-align: center;
+		}
+
+		p{
+			font-family: futura PT light;
+			color: white;
+			font-size: 24pt;
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+
+		.skillsflex {
+			display: flex;
+			justify-content: left;
+			padding: 20px;
+			margin-left: 100px;
+			margin-right: 100px;
+
+		}
+
+		#skillbutton1 {
+			background-color: black;
+			width: 300px;
+			height: 100px;
+			border: none;
+			transition: 0.3s ease-in;
+			box-shadow: 10px 10px white;
+			margin-bottom: 20px;
+
+		}
+		#skillbutton2 {
+			background-color: black;
+			width: 300px;
+			height: 100px;
+			border: none;
+			transition: 0.3s ease-in;
+			box-shadow: 10px 10px white;
+			margin-bottom: 20px;
+
+		}
+		#skillbutton3 {
+			background-color: black;
+			width: 300px;
+			height: 100px;
+			border: none;
+			transition: 0.3s ease-in;
+			box-shadow: 10px 10px white;
+			margin-bottom: 20px;
+
+		}
+		#skillbutton4 {
+			background-color: black;
+			width: 300px;
+			height: 100px;
+			border: none;
+			transition: 0.3s ease-in;
+			box-shadow: 10px 10px white;
+			margin-bottom: 20px;
+
+		}
+		
+		li{
+			list-style: none;
+		}
+
+		#skillbutton1:hover{
+			transform: scale(1.5,1.5);
+		}
+
+		#skillbutton2:hover{
+			transform: scale(1.5,1.5);
+		}
+
+
+		#skillbutton3:hover{
+			transform: scale(1.5,1.5);
+		}
+
+
+		#skillbutton4:hover{
+			transform: scale(1.5,1.5);
+		}
+		
+		.skillsflex #IA{
+			display: none;
+		}
+
+		.skillsflex #UT{
+			display: none;
+		}
+
+		h3 {
+			font-family: deco;
+			font-size: 24pt;
+			color: white;
+			text-align: center;
+
+		}
+
+
+
+
+		@font-face {
+			font-family: moonrise;
+			src: url("../HexKatMobile/fonts/Moonrise-Regular.otf");
+		}
+
+		@font-face{
+			font-family: minta;
+			src: url("../HexKatMobile/fonts/Minta.otf");
+		}
+
+		@font-face{
+			font-family: hazel;
+			src: url("../HexKatMobile/fonts/HazelDecoLight-Regular.otf");
+		}
+
+		@font-face{
+			font-family: deco;
+			src: url("../HexKatMobile/fonts/paulistana_deco.ttf");
+		}
+
+		@font-face{
+			font-family: futura PT light;
+			src: url("../HexKatMobile/fonts/FuturaPTLight.otf");
+		}
