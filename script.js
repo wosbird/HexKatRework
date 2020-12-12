@@ -21,3 +21,5 @@ $("#skillbutton2").on("click", function(){
 $("#skillbutton2").on("click", function(){
 $("#IA").slideToggle();
 })
+
+
