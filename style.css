@@ -1,94 +1,172 @@
-
-
-/* Hamburger Menu */
-
 body {
-	margin: 0;
-	padding: 0;
-	font-family: 'Roboto';
-	font-size: 10px;
-	letter-spacing: 1.7px;
-}
-.menu {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-color: #262626;
-	height: 50px;
-	width: 50px;
-	cursor: pointer;
-	transition: 0.3s;
-	z-index: 9999;
-}
-.menu span {
-	position: absolute;
-	height: 3px;
-	width: 25px;
-	background-color: #fff;
-   	top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 0.3s;
-}
-.menu span:before {
-	content: '';
-	position: absolute;
-	top: -8px;
-	background-color: #fff;
-	height: 3px;
-	width: 25px;
-	transition: 0.3s;
-}
-.menu span:after {
-	content: '';
-	position: absolute;
-	top: 8px;
-	background-color: #fff;
-	height: 3px;
-	width: 25px;
-	transition: 0.3s;
-}
-.menu.active span { background-color: transparent; }
-.menu.active span:before { transform: rotate(45deg);top: 0; }
-.menu.active span:after { transform: rotate(-45deg);top: 0; }
+	background-image: linear-gradient(180deg, rgb(132, 245, 209) 0%, rgb(30, 122, 104) 50%, rgb(132, 245, 209) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: cover;
+  }
 
-/* End */
-
-/* Navigationbar */
-
-.navbar-menu {
-    background-color: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    transform: translateX(-100%);
-    transition: 0.5s;
+/* unvisited link */
+a:link {
+color: white;
+text-decoration: none;
 }
-.navbar-menu.active { transform: translateX(0);transition: 0.5s; }
-.navbar-menu .menu-listing { padding: 0;margin: 0;text-align: right; }
-.menu-listing li { display: inline-block; }
-.menu-listing li a {
-	background-color: #fff;
-	color: #262626;
+
+/* visited link */
+a:visited {
+color: white;
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+color: aquamarine;
+text-decoration: none;
+}
+
+/* selected link */
+a:active {
+color:aquamarine;
+text-decoration: underline;
+}
+
+.menu{
+	background-color: black;
+}
+
+.jumbotron-fluid{
+	background-color: black;
+
+}
+.lead{
+	font-family: futura PT light;
+	color: white;
+	font-size: 18pt;
+}
+.container{
+	padding-top: 60px;
+}
+
+p{
+	font-family: futura PT light;
+	color: white;
+	font-size: 18pt;
+}
+
+h1{
+	font-family: deco;
+	font-size: 160pt;
+	color: white;
+}
+
+h2{
+	font-family: futura PT light;
+	color: white;
+	font-size: 48pt;
+}
+
+h5{
+	font-family: deco;
+	color: #4ff5c0;
+	font-size: 48pt;
+}
+
+.pl-1 {
+	padding-left: 50px;
+}
+
+.carousel {
+	padding-top: 60px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.carousel-item{
+	height: auto;
+padding: 30px;
+	margin-top: 10px;
+
+}
+
+.carousel-caption{
+	margin-left: 300px;
+	margin-bottom: 5%;
+	font-size: 14pt;
+	
+}
+
+.card-title{
+	color: black;
+}
+
+.title{
+	color: white;
+}
+
+.card-text{
+	color: white;
+	font-family: futura PT light;
+	font-size: 24px;
+}
+
+.card{
+	background-color: rgb(132, 245, 209,0.0);
+	padding-top: 200px;
+	border: none;
+}
+
+.row{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 60px;
+}
+
+
+.btn{
+	background-color: black;
+	color: aquamarine;
+	font-family: deco;
+	font-size: 24pt;
+	width: 300px;
+	border: white 2px;
+}
+
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+
+footer{
+	height: 400px;
+	background-color: black;
+
+}
+
+footer .logo{
 	display: block;
-	font-size: 1rem;
-	height: 50px;
-	line-height: 50px;
-	padding: 0 20px;
-	letter-spacing: 1px;
-	text-decoration: none;
-	transition: 0.5s;
+	float: left;
+	padding-right: 50px;
+	padding-top: 50px;
 }
-.menu-listing li a:hover { background-color: #262626;color: #fff;transition: 0.5s; }
 
-/* End */
+footer .menu .nav{
+	padding-top: 120px;
+	display: block;
+}
 
-/* Banner Section */
-
-.banner-img { background: url('https://picsum.photos/1920/1080/?random') no-repeat 100% 100%/cover;height: 100vh; }
-.banner-heads { position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 100%;text-align: center; }
-.banner-info h1 { font-size: 3.6rem;color: #262626; }
-
-/* End */
+@font-face {
+	font-family: "deco";
+	src: url("../HexKatMobile/fonts/paulistana_deco.ttf") 
+;
+   
+	}
+  
+	@font-face{
+	  font-family: "futura PT book";
+	  src: url("../HexKat/fonts/FuturaPTBook.otf") format("opentype");
+	}
+  
+	@font-face{
+	  font-family: "futura PT light";
+	  src: url("../HexKat/fonts/FuturaPTlight.otf") format("opentype");
+	}
+  
