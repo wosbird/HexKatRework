@@ -64,6 +64,13 @@ h2{
 	font-size: 48pt;
 }
 
+h3{
+	font-family: deco;
+	color: black;
+	font-size: 54pt;
+	text-align: center;
+}
+
 h5{
 	font-family: deco;
 	color: #4ff5c0;
