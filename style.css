@@ -153,9 +153,9 @@ footer .menu .nav{
 	display: block;
 }
 
-@font-face {
-	font-family: "deco";
-	src: url("../HexKatRework/fonts/paulistana_deco.ttf") format("truetype");
+	@font-face{
+		font-family: "deco";
+		src: url("../HexKatRework/fonts/paulistana_deco.ttf") format ("truetype");
 	}
   
 	@font-face{
