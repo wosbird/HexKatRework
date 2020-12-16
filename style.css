@@ -79,9 +79,11 @@ h5{
 
 .subheader{
 	font-family: deco;
-	font-size: 50pt;
+	font-size: 60pt;
 	color: black;
 	text-align: center;
+	display: block;
+	float: center;
 }
 
 
