@@ -163,7 +163,7 @@ footer .menu .nav{
 	@font-face{
 	  font-family: "futura PT book";
 	  src: url("../HexKatRework/fonts/FuturaPTBook.otf")
-	  ) format("opentype");
+	   format("opentype");
 	}
   
 	@font-face{
