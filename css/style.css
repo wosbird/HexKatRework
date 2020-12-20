@@ -74,8 +74,8 @@ h3{
 
 h5{
 	font-family: deco;
-	color: #4ff5c0;
-	font-size: 48pt;
+	color: white;
+	font-size: 36pt;
 }
 
 .subheader{
@@ -101,14 +101,15 @@ h5{
 }
 
 .carousel-item{
-	height: auto;
+	height: 600px;
 padding: 30px;
-	margin-top: 10px;
+	margin-top: 50px;
 
 }
 
 .carousel-caption{
 	margin-left: 300px;
+	padding-left: 20px;
 	margin-bottom: 5%;
 	font-size: 14pt;
 	
@@ -156,28 +157,37 @@ padding: 30px;
 }
 
 footer{
-	height: 400px;
+	text-align: center;
+	height: 420px;
 	background-color: black;
 
+
 }
 
-footer .logo{
-	display: block;
-	float: left;
-	padding-right: 50px;
-	padding-top: 50px;
-}
 
-footer .menu .nav{
+footer .nav{
 	padding-top: 120px;
+	padding-bottom: 120px;
 	display: block;
+	float: center;
+	background-image: url(../images/kimonoteal_sm.png);
+	background-repeat: no-repeat;
+	background-position: center;
+
 }
+footer .nav-item{
+	background: rgb(0, 0, 0, 0.7);
+	
+}
+
+
+
 
 	@font-face{
-		font-family: "deco";
-		src: url("../HexKatRework/fonts/paulistana_deco.ttf") format("opentype");
+		font-family: deco;
+		src: url("../fonts/paulistana_deco.ttf") format("opentype");
 	}
-  
+
 	@font-face{
 	  font-family: "futura PT book";
 	  src: url("../HexKatRework/fonts/FuturaPTBook.otf")
