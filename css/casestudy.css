@@ -1,0 +1,201 @@
+body {
+	background-image: linear-gradient(180deg, rgb(132, 245, 209) 0%, rgb(30, 122, 104) 50%, rgb(132, 245, 209) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: cover;
+  }
+
+/* unvisited link */
+a:link {
+color: white;
+text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+color: white;
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+color: aquamarine;
+text-decoration: none;
+}
+
+/* selected link */
+a:active {
+color:aquamarine;
+text-decoration: underline;
+}
+
+.menu{
+	background-color: black;
+}
+
+.jumbotron-fluid{
+	background-color: black;
+
+}
+.lead{
+	font-family: futura PT light;
+	color: white;
+	font-size: 18pt;
+}
+.container{
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+p{
+	font-family: futura PT light;
+	color: white;
+	font-size: 18pt;
+}
+
+h1{
+	font-family: deco;
+	font-size: 160pt;
+	color: white;
+}
+
+h2{
+	font-family: futura PT light;
+	color: white;
+	font-size: 48pt;
+}
+
+h3{
+	font-family: deco;
+	color: black;
+	font-size: 54pt;
+	text-align: center;
+}
+
+h5{
+	font-family: deco;
+	color: white;
+	font-size: 36pt;
+}
+
+.subheader{
+	font-family: deco;
+	font-size: 60pt;
+	color: black;
+	text-align: center;
+	display: block;
+	float: center;
+	padding-top: 20px;
+}
+
+
+.pl-1 {
+	padding-left: 50px;
+}
+
+.carousel {
+	
+	margin-bottom: 10px;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.carousel-item{
+	height: 600px;
+padding: 30px;
+	margin-top: 50px;
+
+}
+
+.carousel-caption{
+	margin-left: 300px;
+	padding-left: 20px;
+	margin-bottom: 5%;
+	font-size: 14pt;
+	
+}
+
+.card-title{
+	color: black;
+}
+
+.title{
+	color: white;
+}
+
+.card-text{
+	color: white;
+	font-family: futura PT light;
+	font-size: 24px;
+}
+
+.card{
+	background-color: rgb(132, 245, 209,0.0);
+	padding-top: 80px;
+	border: none;
+}
+
+.row{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 60px;
+}
+
+
+.btn{
+	background-color: black;
+	color: aquamarine;
+	font-family: deco;
+	font-size: 24pt;
+	width: 300px;
+	border: white 2px;
+}
+
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+
+footer{
+	text-align: center;
+	height: 420px;
+	background-color: black;
+
+
+}
+
+
+footer .nav{
+	padding-top: 120px;
+	padding-bottom: 120px;
+	display: block;
+	float: center;
+	background-image: url(../images/kimonoteal_sm.png);
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+footer .nav-item{
+	background: rgb(0, 0, 0, 0.7);
+	
+}
+
+
+
+
+	@font-face{
+		font-family: deco;
+		src: url("../fonts/paulistana_deco.ttf") format("opentype");
+	}
+
+	@font-face{
+	  font-family: "futura PT book";
+	  src: url("../HexKatRework/fonts/FuturaPTBook.otf")
+	   format("opentype");
+	}
+  
+	@font-face{
+	  font-family: "futura PT light";
+	  src: url("../HexKatRework/fonts/FuturaPTlight.otf") format("opentype");
+	}
+  
