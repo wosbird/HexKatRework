@@ -1,8 +1,9 @@
 body {
-	background-image: linear-gradient(180deg, rgb(132, 245, 209) 0%, rgb(30, 122, 104) 50%, rgb(132, 245, 209) 100%);
+	background-image: linear-gradient(180deg, rgb(132, 245, 209) 0%, rgb(30, 122, 104) 50%, rgb(88, 224, 179) 100%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: cover;
+	position: relative;
   }
 
 /* unvisited link */
@@ -31,6 +32,7 @@ text-decoration: underline;
 
 .menu{
 	background-color: black;
+	padding-top: 20px;
 }
 
 .jumbotron-fluid{
@@ -47,10 +49,56 @@ text-decoration: underline;
 	padding-bottom: 40px;
 }
 
+
+
+/* The navigation bar */
+#casescroll {
+	overflow: hidden;
+	background-color: black;
+	position: fixed !important; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 10; 
+	height: 100%;
+
+
+	
+  }
+  
+  /* Links inside the navbar */
+  #casescroll a {
+	float: center;
+	display: block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  #casescroll a:hover {
+	background:white;
+	color: black;
+  }
+  
+  /* Main content */
+  .main {
+	margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+
+
 p{
 	font-family: futura PT light;
 	color: white;
 	font-size: 18pt;
+	text-align: left;
+}
+
+ul{
+	font-family: futura PT light;
+	color: white;
+	font-size: 18pt;
+	text-align: left;
 }
 
 h1{
@@ -60,9 +108,10 @@ h1{
 }
 
 h2{
-	font-family: futura PT light;
+	font-family: futura PT book;
 	color: white;
-	font-size: 48pt;
+	font-size: 66pt;
+	text-align: center;
 }
 
 h3{
@@ -72,67 +121,28 @@ h3{
 	text-align: center;
 }
 
+h4{
+	font-family: futura PT book;
+	font-size: 22pt;
+	color: black;
+}
+
 h5{
 	font-family: deco;
 	color: white;
 	font-size: 36pt;
 }
 
-.subheader{
-	font-family: deco;
-	font-size: 60pt;
-	color: black;
-	text-align: center;
-	display: block;
-	float: center;
-	padding-top: 20px;
-}
 
-
-.pl-1 {
-	padding-left: 50px;
-}
-
-.carousel {
-	
-	margin-bottom: 10px;
-	width: 100%;
-	padding-bottom: 20px;
-}
-
-.carousel-item{
-	height: 600px;
-padding: 30px;
-	margin-top: 50px;
-
-}
-
-.carousel-caption{
-	margin-left: 300px;
-	padding-left: 20px;
-	margin-bottom: 5%;
-	font-size: 14pt;
-	
-}
-
-.card-title{
-	color: black;
-}
-
-.title{
-	color: white;
-}
-
-.card-text{
+#challenge{
 	color: white;
 	font-family: futura PT light;
-	font-size: 24px;
+	font-size: 18pt;
 }
 
-.card{
-	background-color: rgb(132, 245, 209,0.0);
-	padding-top: 80px;
-	border: none;
+.container-fluid{
+	padding-top: 40px;
+
 }
 
 .row{
@@ -141,6 +151,10 @@ padding: 30px;
 	padding-bottom: 60px;
 }
 
+img{
+	display: block;
+	float: center;
+}
 
 .btn{
 	background-color: black;
@@ -163,22 +177,25 @@ footer{
 
 
 }
+footer #kimono{
+	text-align: center;
+}
 
 
 footer .nav{
-	padding-top: 120px;
-	padding-bottom: 120px;
-	display: block;
-	float: center;
-	background-image: url(../images/kimonoteal_sm.png);
-	background-repeat: no-repeat;
-	background-position: center;
+	padding-top:40px;
+	padding-bottom: 20px;
+	font-size: 20pt;
+	font-family: futura PT light;
+
 
 }
 footer .nav-item{
 	background: rgb(0, 0, 0, 0.7);
 	
 }
+
+
 
 
 
