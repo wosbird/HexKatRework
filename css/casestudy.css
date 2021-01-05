@@ -32,7 +32,8 @@ text-decoration: underline;
 
 .menu{
 	background-color: black;
-	padding-top: 20px;
+	font-size: 18pt;
+	font-family: futura PT light;
 }
 
 .jumbotron-fluid{
